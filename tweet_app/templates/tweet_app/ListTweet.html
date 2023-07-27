@@ -4,8 +4,9 @@
 
 <ul>
     {% for tweet in tweets %}
-    <li> {tweet}</li>
+     
+    <h2>{{tweet.nickname}}</h2> 
+    <h4>{{tweet.message}}</h4>
     {% endfor%}
 </ul>
-<h1>list tweet</h1>
 {% endblock%}
