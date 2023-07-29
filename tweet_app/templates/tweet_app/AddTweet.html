@@ -3,10 +3,7 @@
 {% block content %}
 <form action="" method="POST" > 
     {% csrf_token %}
-    <div class="mb-3" style="width: 50%;">
-      <label for="nickname" class="form-label">nickname</label>
-      <input type="text" class="form-control" id="nickname" name="nickname">
-    </div>
+    
     <div class="mb-3" style="width: 50%;">
       <label for="message" class="form-label">message</label>
       <input type="text" class="form-control" id="message" name="message">
